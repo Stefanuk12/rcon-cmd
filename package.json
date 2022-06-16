@@ -1,6 +1,6 @@
 {
   "name": "rcon-cmd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -21,5 +21,13 @@
     "commander": "^9.3.0",
     "keypress": "^0.2.1",
     "rcon": "^1.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Stefanuk12/rcon-cmd/issues"
+  },
+  "homepage": "https://github.com/Stefanuk12/rcon-cmd#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stefanuk12/rcon-cmd.git"
   }
 }
