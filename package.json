@@ -1,0 +1,25 @@
+{
+  "name": "rcon-cmd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "rcon-cmd": "index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rcon",
+    "command line interface",
+    "cli"
+  ],
+  "author": "Stefanuk12",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.3.0",
+    "keypress": "^0.2.1",
+    "rcon": "^1.1.0"
+  }
+}
