@@ -33,7 +33,7 @@ program
         // Create a new client
         const QueuedCommands = []
         const Client = new Rcon(Options.host, Options.port, Options.password, {
-            tcp: !Options.udp,
+            tcp: !Options.Udp,
             challenge: Options.challenge
         })
 
